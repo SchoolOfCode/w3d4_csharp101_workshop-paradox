@@ -4,7 +4,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello World!");
+        // add input to string
+        string username = Console.ReadLine();
+        // print out message
+        Console.WriteLine($"Hello {username}!");
     }
 }
 
